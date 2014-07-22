@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		960898421965C5FC008696A3 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960898411965C5FC008696A3 /* FacebookSDK.framework */; };
+		962377BA19797CBE0092C163 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 962377B919797CBE0092C163 /* RegisterViewController.m */; };
+		962377BD1979815D0092C163 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 962377BC1979815D0092C163 /* HomeViewController.m */; };
+		9656D4DA1978229600521106 /* WalkThroughViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9656D4D91978229600521106 /* WalkThroughViewController.m */; };
+		9656D4E01978230500521106 /* page1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9656D4DC1978230500521106 /* page1.png */; };
+		9656D4E11978230500521106 /* page2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9656D4DD1978230500521106 /* page2.png */; };
+		9656D4E21978230500521106 /* page3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9656D4DE1978230500521106 /* page3.png */; };
+		9656D4E31978230500521106 /* page4.png in Resources */ = {isa = PBXBuildFile; fileRef = 9656D4DF1978230500521106 /* page4.png */; };
+		9656D4E6197823BF00521106 /* WalkThroughContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9656D4E5197823BF00521106 /* WalkThroughContentViewController.m */; };
+		9656D4EA19782B5E00521106 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9656D4E919782B5E00521106 /* LoginViewController.m */; };
+		96C5A248195C6CA600DBA2CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C5A247195C6CA600DBA2CC /* Foundation.framework */; };
+		96C5A24A195C6CA600DBA2CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C5A249195C6CA600DBA2CC /* CoreGraphics.framework */; };
+		96C5A24C195C6CA600DBA2CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C5A24B195C6CA600DBA2CC /* UIKit.framework */; };
+		96C5A252195C6CA600DBA2CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96C5A250195C6CA600DBA2CC /* InfoPlist.strings */; };
+		96C5A254195C6CA600DBA2CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C5A253195C6CA600DBA2CC /* main.m */; };
+		96C5A258195C6CA600DBA2CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C5A257195C6CA600DBA2CC /* AppDelegate.m */; };
+		96C5A25B195C6CA600DBA2CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96C5A259195C6CA600DBA2CC /* Main.storyboard */; };
+		96C5A25E195C6CA600DBA2CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C5A25D195C6CA600DBA2CC /* ViewController.m */; };
+		96C5A260195C6CA600DBA2CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96C5A25F195C6CA600DBA2CC /* Images.xcassets */; };
+		96C5A267195C6CA600DBA2CC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C5A266195C6CA600DBA2CC /* XCTest.framework */; };
+		96C5A268195C6CA600DBA2CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C5A247195C6CA600DBA2CC /* Foundation.framework */; };
+		96C5A269195C6CA600DBA2CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C5A24B195C6CA600DBA2CC /* UIKit.framework */; };
+		96C5A271195C6CA600DBA2CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96C5A26F195C6CA600DBA2CC /* InfoPlist.strings */; };
+		96C5A273195C6CA600DBA2CC /* MutualDreamsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C5A272195C6CA600DBA2CC /* MutualDreamsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96C5A26A195C6CA600DBA2CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96C5A23C195C6CA600DBA2CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96C5A243195C6CA600DBA2CC;
+			remoteInfo = MutualDreams;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		960898411965C5FC008696A3 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		962377B819797CBE0092C163 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		962377B919797CBE0092C163 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		962377BB1979815D0092C163 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		962377BC1979815D0092C163 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		9656D4D81978229600521106 /* WalkThroughViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WalkThroughViewController.h; sourceTree = "<group>"; };
+		9656D4D91978229600521106 /* WalkThroughViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WalkThroughViewController.m; sourceTree = "<group>"; };
+		9656D4DC1978230500521106 /* page1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page1.png; sourceTree = "<group>"; };
+		9656D4DD1978230500521106 /* page2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page2.png; sourceTree = "<group>"; };
+		9656D4DE1978230500521106 /* page3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page3.png; sourceTree = "<group>"; };
+		9656D4DF1978230500521106 /* page4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page4.png; sourceTree = "<group>"; };
+		9656D4E4197823BF00521106 /* WalkThroughContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WalkThroughContentViewController.h; sourceTree = "<group>"; };
+		9656D4E5197823BF00521106 /* WalkThroughContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WalkThroughContentViewController.m; sourceTree = "<group>"; };
+		9656D4E819782B5E00521106 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		9656D4E919782B5E00521106 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		96C5A244195C6CA600DBA2CC /* MutualDreams.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MutualDreams.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96C5A247195C6CA600DBA2CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		96C5A249195C6CA600DBA2CC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		96C5A24B195C6CA600DBA2CC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		96C5A24F195C6CA600DBA2CC /* MutualDreams-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MutualDreams-Info.plist"; sourceTree = "<group>"; };
+		96C5A251195C6CA600DBA2CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		96C5A253195C6CA600DBA2CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96C5A255195C6CA600DBA2CC /* MutualDreams-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MutualDreams-Prefix.pch"; sourceTree = "<group>"; };
+		96C5A256195C6CA600DBA2CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		96C5A257195C6CA600DBA2CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		96C5A25A195C6CA600DBA2CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96C5A25C195C6CA600DBA2CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		96C5A25D195C6CA600DBA2CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		96C5A25F195C6CA600DBA2CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		96C5A265195C6CA600DBA2CC /* MutualDreamsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MutualDreamsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96C5A266195C6CA600DBA2CC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		96C5A26E195C6CA600DBA2CC /* MutualDreamsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MutualDreamsTests-Info.plist"; sourceTree = "<group>"; };
+		96C5A270195C6CA600DBA2CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		96C5A272195C6CA600DBA2CC /* MutualDreamsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutualDreamsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96C5A241195C6CA600DBA2CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C5A24A195C6CA600DBA2CC /* CoreGraphics.framework in Frameworks */,
+				960898421965C5FC008696A3 /* FacebookSDK.framework in Frameworks */,
+				96C5A24C195C6CA600DBA2CC /* UIKit.framework in Frameworks */,
+				96C5A248195C6CA600DBA2CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96C5A262195C6CA600DBA2CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C5A267195C6CA600DBA2CC /* XCTest.framework in Frameworks */,
+				96C5A269195C6CA600DBA2CC /* UIKit.framework in Frameworks */,
+				96C5A268195C6CA600DBA2CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9656D4DB197822E900521106 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9656D4DC1978230500521106 /* page1.png */,
+				9656D4DD1978230500521106 /* page2.png */,
+				9656D4DE1978230500521106 /* page3.png */,
+				9656D4DF1978230500521106 /* page4.png */,
+			);
+			name = Resources;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		96C5A23B195C6CA600DBA2CC = {
+			isa = PBXGroup;
+			children = (
+				96C5A24D195C6CA600DBA2CC /* MutualDreams */,
+				96C5A26C195C6CA600DBA2CC /* MutualDreamsTests */,
+				96C5A246195C6CA600DBA2CC /* Frameworks */,
+				96C5A245195C6CA600DBA2CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96C5A245195C6CA600DBA2CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96C5A244195C6CA600DBA2CC /* MutualDreams.app */,
+				96C5A265195C6CA600DBA2CC /* MutualDreamsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96C5A246195C6CA600DBA2CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				960898411965C5FC008696A3 /* FacebookSDK.framework */,
+				96C5A247195C6CA600DBA2CC /* Foundation.framework */,
+				96C5A249195C6CA600DBA2CC /* CoreGraphics.framework */,
+				96C5A24B195C6CA600DBA2CC /* UIKit.framework */,
+				96C5A266195C6CA600DBA2CC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96C5A24D195C6CA600DBA2CC /* MutualDreams */ = {
+			isa = PBXGroup;
+			children = (
+				96C5A256195C6CA600DBA2CC /* AppDelegate.h */,
+				96C5A257195C6CA600DBA2CC /* AppDelegate.m */,
+				96C5A259195C6CA600DBA2CC /* Main.storyboard */,
+				96C5A25C195C6CA600DBA2CC /* ViewController.h */,
+				96C5A25D195C6CA600DBA2CC /* ViewController.m */,
+				9656D4D81978229600521106 /* WalkThroughViewController.h */,
+				9656D4D91978229600521106 /* WalkThroughViewController.m */,
+				9656D4E4197823BF00521106 /* WalkThroughContentViewController.h */,
+				9656D4E5197823BF00521106 /* WalkThroughContentViewController.m */,
+				9656D4E819782B5E00521106 /* LoginViewController.h */,
+				9656D4E919782B5E00521106 /* LoginViewController.m */,
+				962377B819797CBE0092C163 /* RegisterViewController.h */,
+				962377B919797CBE0092C163 /* RegisterViewController.m */,
+				962377BB1979815D0092C163 /* HomeViewController.h */,
+				962377BC1979815D0092C163 /* HomeViewController.m */,
+				96C5A25F195C6CA600DBA2CC /* Images.xcassets */,
+				9656D4DB197822E900521106 /* Resources */,
+				96C5A24E195C6CA600DBA2CC /* Supporting Files */,
+			);
+			path = MutualDreams;
+			sourceTree = "<group>";
+		};
+		96C5A24E195C6CA600DBA2CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96C5A24F195C6CA600DBA2CC /* MutualDreams-Info.plist */,
+				96C5A250195C6CA600DBA2CC /* InfoPlist.strings */,
+				96C5A253195C6CA600DBA2CC /* main.m */,
+				96C5A255195C6CA600DBA2CC /* MutualDreams-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96C5A26C195C6CA600DBA2CC /* MutualDreamsTests */ = {
+			isa = PBXGroup;
+			children = (
+				96C5A272195C6CA600DBA2CC /* MutualDreamsTests.m */,
+				96C5A26D195C6CA600DBA2CC /* Supporting Files */,
+			);
+			path = MutualDreamsTests;
+			sourceTree = "<group>";
+		};
+		96C5A26D195C6CA600DBA2CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96C5A26E195C6CA600DBA2CC /* MutualDreamsTests-Info.plist */,
+				96C5A26F195C6CA600DBA2CC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96C5A243195C6CA600DBA2CC /* MutualDreams */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96C5A276195C6CA600DBA2CC /* Build configuration list for PBXNativeTarget "MutualDreams" */;
+			buildPhases = (
+				96C5A240195C6CA600DBA2CC /* Sources */,
+				96C5A241195C6CA600DBA2CC /* Frameworks */,
+				96C5A242195C6CA600DBA2CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MutualDreams;
+			productName = MutualDreams;
+			productReference = 96C5A244195C6CA600DBA2CC /* MutualDreams.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96C5A264195C6CA600DBA2CC /* MutualDreamsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96C5A279195C6CA600DBA2CC /* Build configuration list for PBXNativeTarget "MutualDreamsTests" */;
+			buildPhases = (
+				96C5A261195C6CA600DBA2CC /* Sources */,
+				96C5A262195C6CA600DBA2CC /* Frameworks */,
+				96C5A263195C6CA600DBA2CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96C5A26B195C6CA600DBA2CC /* PBXTargetDependency */,
+			);
+			name = MutualDreamsTests;
+			productName = MutualDreamsTests;
+			productReference = 96C5A265195C6CA600DBA2CC /* MutualDreamsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96C5A23C195C6CA600DBA2CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Nicolas Cadena";
+				TargetAttributes = {
+					96C5A264195C6CA600DBA2CC = {
+						TestTargetID = 96C5A243195C6CA600DBA2CC;
+					};
+				};
+			};
+			buildConfigurationList = 96C5A23F195C6CA600DBA2CC /* Build configuration list for PBXProject "MutualDreams" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96C5A23B195C6CA600DBA2CC;
+			productRefGroup = 96C5A245195C6CA600DBA2CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96C5A243195C6CA600DBA2CC /* MutualDreams */,
+				96C5A264195C6CA600DBA2CC /* MutualDreamsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96C5A242195C6CA600DBA2CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C5A260195C6CA600DBA2CC /* Images.xcassets in Resources */,
+				96C5A252195C6CA600DBA2CC /* InfoPlist.strings in Resources */,
+				9656D4E21978230500521106 /* page3.png in Resources */,
+				9656D4E31978230500521106 /* page4.png in Resources */,
+				9656D4E01978230500521106 /* page1.png in Resources */,
+				96C5A25B195C6CA600DBA2CC /* Main.storyboard in Resources */,
+				9656D4E11978230500521106 /* page2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96C5A263195C6CA600DBA2CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C5A271195C6CA600DBA2CC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96C5A240195C6CA600DBA2CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C5A25E195C6CA600DBA2CC /* ViewController.m in Sources */,
+				9656D4DA1978229600521106 /* WalkThroughViewController.m in Sources */,
+				9656D4EA19782B5E00521106 /* LoginViewController.m in Sources */,
+				96C5A258195C6CA600DBA2CC /* AppDelegate.m in Sources */,
+				962377BA19797CBE0092C163 /* RegisterViewController.m in Sources */,
+				9656D4E6197823BF00521106 /* WalkThroughContentViewController.m in Sources */,
+				96C5A254195C6CA600DBA2CC /* main.m in Sources */,
+				962377BD1979815D0092C163 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96C5A261195C6CA600DBA2CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C5A273195C6CA600DBA2CC /* MutualDreamsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96C5A26B195C6CA600DBA2CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96C5A243195C6CA600DBA2CC /* MutualDreams */;
+			targetProxy = 96C5A26A195C6CA600DBA2CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96C5A250195C6CA600DBA2CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96C5A251195C6CA600DBA2CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		96C5A259195C6CA600DBA2CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96C5A25A195C6CA600DBA2CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96C5A26F195C6CA600DBA2CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96C5A270195C6CA600DBA2CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96C5A274195C6CA600DBA2CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		96C5A275195C6CA600DBA2CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96C5A277195C6CA600DBA2CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"/Users/ncadena/Documents/FacebookSDK/Samples/ios-howtos-master",
+					/Users/ncadena/Documents/FacebookSDK,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MutualDreams/MutualDreams-Prefix.pch";
+				INFOPLIST_FILE = "MutualDreams/MutualDreams-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		96C5A278195C6CA600DBA2CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"/Users/ncadena/Documents/FacebookSDK/Samples/ios-howtos-master",
+					/Users/ncadena/Documents/FacebookSDK,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MutualDreams/MutualDreams-Prefix.pch";
+				INFOPLIST_FILE = "MutualDreams/MutualDreams-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		96C5A27A195C6CA600DBA2CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MutualDreams.app/MutualDreams";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MutualDreams/MutualDreams-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MutualDreamsTests/MutualDreamsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		96C5A27B195C6CA600DBA2CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MutualDreams.app/MutualDreams";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MutualDreams/MutualDreams-Prefix.pch";
+				INFOPLIST_FILE = "MutualDreamsTests/MutualDreamsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96C5A23F195C6CA600DBA2CC /* Build configuration list for PBXProject "MutualDreams" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96C5A274195C6CA600DBA2CC /* Debug */,
+				96C5A275195C6CA600DBA2CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96C5A276195C6CA600DBA2CC /* Build configuration list for PBXNativeTarget "MutualDreams" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96C5A277195C6CA600DBA2CC /* Debug */,
+				96C5A278195C6CA600DBA2CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96C5A279195C6CA600DBA2CC /* Build configuration list for PBXNativeTarget "MutualDreamsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96C5A27A195C6CA600DBA2CC /* Debug */,
+				96C5A27B195C6CA600DBA2CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96C5A23C195C6CA600DBA2CC /* Project object */;
+}
