@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		960898421965C5FC008696A3 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960898411965C5FC008696A3 /* FacebookSDK.framework */; };
 		962377BA19797CBE0092C163 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 962377B919797CBE0092C163 /* RegisterViewController.m */; };
-		962377BD1979815D0092C163 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 962377BC1979815D0092C163 /* HomeViewController.m */; };
+		9623FC43197EBB3900D7FA8C /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9623FC42197EBB3900D7FA8C /* HomeViewController.m */; };
 		9656D4DA1978229600521106 /* WalkThroughViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9656D4D91978229600521106 /* WalkThroughViewController.m */; };
 		9656D4E01978230500521106 /* page1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9656D4DC1978230500521106 /* page1.png */; };
 		9656D4E11978230500521106 /* page2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9656D4DD1978230500521106 /* page2.png */; };
@@ -47,8 +47,8 @@
 		960898411965C5FC008696A3 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		962377B819797CBE0092C163 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		962377B919797CBE0092C163 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
-		962377BB1979815D0092C163 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		962377BC1979815D0092C163 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		9623FC41197EBB3900D7FA8C /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		9623FC42197EBB3900D7FA8C /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		9656D4D81978229600521106 /* WalkThroughViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WalkThroughViewController.h; sourceTree = "<group>"; };
 		9656D4D91978229600521106 /* WalkThroughViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WalkThroughViewController.m; sourceTree = "<group>"; };
 		9656D4DC1978230500521106 /* page1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page1.png; sourceTree = "<group>"; };
@@ -164,8 +164,8 @@
 				9656D4E919782B5E00521106 /* LoginViewController.m */,
 				962377B819797CBE0092C163 /* RegisterViewController.h */,
 				962377B919797CBE0092C163 /* RegisterViewController.m */,
-				962377BB1979815D0092C163 /* HomeViewController.h */,
-				962377BC1979815D0092C163 /* HomeViewController.m */,
+				9623FC41197EBB3900D7FA8C /* HomeViewController.h */,
+				9623FC42197EBB3900D7FA8C /* HomeViewController.m */,
 				96C5A25F195C6CA600DBA2CC /* Images.xcassets */,
 				9656D4DB197822E900521106 /* Resources */,
 				96C5A24E195C6CA600DBA2CC /* Supporting Files */,
@@ -310,7 +310,7 @@
 				962377BA19797CBE0092C163 /* RegisterViewController.m in Sources */,
 				9656D4E6197823BF00521106 /* WalkThroughContentViewController.m in Sources */,
 				96C5A254195C6CA600DBA2CC /* main.m in Sources */,
-				962377BD1979815D0092C163 /* HomeViewController.m in Sources */,
+				9623FC43197EBB3900D7FA8C /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
